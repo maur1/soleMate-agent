@@ -1,4 +1,4 @@
-# Home Automation Assistant Example
+# SoleMate Assistant Example
 
 ## Setup
 
