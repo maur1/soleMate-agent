@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff; /* white background */
+    text-align: center;
+  }
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3001c; /* button color */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  .btn:hover {
+    background-color: #081623;
+  }
+  
